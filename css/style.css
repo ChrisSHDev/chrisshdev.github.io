@@ -11,6 +11,9 @@
 *	Edit this section
 *
 * ======================================================= */
+iframe#content {
+  visibility: hidden;
+}
 .animate-box:nth-child(2) span.colorlib-counter.js-counter:after {
   content: '+';
 }

@@ -737,9 +737,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="loadBlog">
-
-						</div>
+						<iframe id="content" src="about:blank"></iframe>
 					</div>
 				</section>
 				<p style="text-align: center"><small>&copy;
@@ -775,11 +773,14 @@
 	<script src="js/main.js"></script>
 	<script>
 		$( window ).on( "load", function() {
+			/*
 			myWindow = window.open("https://reactjsblog.herokuapp.com");
 			console.log( "open blog" );
 			setTimeout(function(){myWindow.close(); }, 1000);
 			
 			console.log( "close blog" );
+			*/
+			$("#content").attr("src","https://reactjsblog.herokuapp.com");
     });
 	</script>
 </body>
