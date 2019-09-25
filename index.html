@@ -777,7 +777,8 @@
 		$( window ).on( "load", function() {
 			myWindow = window.open("https://reactjsblog.herokuapp.com");
 			console.log( "open blog" );
-			myWindow.close();
+			setTimeout(function(){myWindow.close(); }, 1000);
+			
 			console.log( "close blog" );
     });
 	</script>
