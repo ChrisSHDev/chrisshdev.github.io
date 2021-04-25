@@ -11,6 +11,11 @@
 *	Edit this section
 *
 * ======================================================= */
+
+.services {
+  height: 146px;
+}
+
 iframe#content {
   visibility: hidden;
 }
